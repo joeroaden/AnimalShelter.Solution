@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 namespace AnimalShelter.Models
 {
   public class Animal
@@ -8,5 +11,7 @@ namespace AnimalShelter.Models
     public string Breed { get; set; }
     public string Gender { get; set; }
     public string Date { get; set; }
+   
   }
+
 }
